@@ -1,4 +1,11 @@
+import { useEffect } from 'preact/hooks'
+import { copyToClipboard, deepClone, color, verify } from 'tiny-tools-mw'
+
 export function App() {
+
+  useEffect(() => {
+    // copyToClipboard('123')
+  }, [])
 
   const renderItem = (text: string) => {
     return (
