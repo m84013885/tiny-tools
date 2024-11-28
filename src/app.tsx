@@ -4,7 +4,7 @@ import { copyToClipboard, deepClone, color, verify } from 'tiny-tools-mw'
 export function App() {
 
   useEffect(() => {
-    // copyToClipboard('123')
+    copyToClipboard('123')
   }, [])
 
   const renderItem = (text: string) => {

@@ -12,8 +12,8 @@ importers:
         specifier: ^10.24.3
         version: 10.24.3
       tiny-tools-mw:
-        specifier: ^0.0.0
-        version: 0.0.0
+        specifier: ^0.0.1
+        version: 0.0.1
     devDependencies:
       '@preact/preset-vite':
         specifier: ^2.9.1
@@ -564,6 +564,9 @@ packages:
   tiny-tools-mw@0.0.0:
     resolution: {integrity: sha512-oZN1fYiOrwoWEn57axP0fMdtUwGSmEpYrADevwGuAAXbggl2S4NeWX9vGN4A/mXiAVkadt04SccMDJGTnK/olg==}
 
+  tiny-tools-mw@0.0.1:
+    resolution: {integrity: sha512-HBPN6G0rp56CHq3pu2V69xEwdRS2gy4rmbxqIsjBzf2RVMIElyXZSuVnChzxwZT5EVIAXEUuC+H0mr8WOO3hbA==}
+
   typescript@5.6.3:
     resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==}
     engines: {node: '>=14.17'}
@@ -1107,6 +1110,11 @@ snapshots:
   tiny-tools-mw@0.0.0:
     dependencies:
       preact: 10.24.3
+
+  tiny-tools-mw@0.0.1:
+    dependencies:
+      preact: 10.24.3
+      tiny-tools-mw: 0.0.0
 
   typescript@5.6.3: {}
 
