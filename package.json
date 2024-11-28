@@ -1,6 +1,6 @@
 {
   "name": "tiny-tools-mw",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -36,5 +36,8 @@
   "bugs": {
     "url": "https://github.com/m84013885/tiny-tools/issues"
   },
-  "homepage": "https://github.com/m84013885/tiny-tools#readme"
+  "homepage": "https://github.com/m84013885/tiny-tools#readme",
+  "files": [
+    "core"
+  ]
 }
